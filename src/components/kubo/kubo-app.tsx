@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, type ReactNode } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
-import { Bell, House, Pill, CalendarDays, ShoppingBasket, Users, ChevronRight, Plus, Sparkles, ShieldCheck, Check, Clock3, MoreHorizontal, ArrowUpRight, Wallet, ScanLine, Camera, ChevronLeft, Copy, Heart, X, Leaf, Circle, CheckCircle2, MapPin, ArrowLeftRight } from 'lucide-react';
+import { Bell, House, Pill, CalendarDays, ShoppingBasket, Users, ChevronRight, Plus, Sparkles, ShieldCheck, Check, Clock3, MoreHorizontal, ArrowUpRight, Wallet, ScanLine, Camera, ChevronLeft, Copy, Heart, Circle, CheckCircle2, ArrowLeftRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
