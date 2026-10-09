@@ -79,7 +79,7 @@ export function HomeView() {
  <SectionTitle title="Your family circle" to="/family" label="See all"/>
  <div className="family-strip">{members.map(m=><Button variant="plain" key={m.name} className="member h-auto p-0 hover:bg-transparent" onClick={()=>{ctx.setSelectedMember(m);ctx.setModal('member');}}><MemberAvatar name={m.name}/><span className="member-name">{m.name}</span></Button>)}</div>
  <Button variant="soft" className="magic-banner w-full h-auto whitespace-normal text-left" onClick={()=>ctx.setModal('magic')}><span className="magic-icon"><Sparkles className="size-20"/></span><span className="min-w-0"><h3>A little magic for your day</h3><p>Add it in your own words. We’ll sort it out.</p></span><ChevronRight className="text-primary"/></Button>
- <SectionTitle title="A dose of care" to="/medicine"/>{ctx.medicines[0]&&<DoseCard medicine={ctx.medicines[0]}/> 
+ <SectionTitle title="A dose of care" to="/medicine"/>{ctx.medicines[0]&&<DoseCard medicine={ctx.medicines[0]}/>}
  <section className="mt-7"><SectionTitle title="Around the house"/><div className="quick-grid">
  <QuickCard to="/calendar" icon={<CalendarDays/>} color="bg-sky text-sky-ink" title="Family calendar" text="2 events coming up"/>
  <QuickCard to="/lists" icon={<ShoppingBasket/>} color="bg-peach text-peach-ink" title="Grocery list" text={`${remaining} items to pick up`}/>
